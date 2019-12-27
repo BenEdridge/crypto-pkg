@@ -1,0 +1,26 @@
+{
+  "name": "crypto-pkg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack" : "npm pack",
+    "test": "tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenEdridge/crypto-pkg.git"
+  },
+  "keywords": [
+    "cryptography"
+  ],
+  "author": "Ben Edridge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenEdridge/crypto-pkg/issues"
+  },
+  "homepage": "https://github.com/BenEdridge/crypto-pkg#readme",
+  "files": [
+    "index.js"
+  ]
+}
