@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pack" : "npm pack",
-    "test": "tap"
+    "test:unit": "npm test",
+    "example:pack": "npm pack && mv crypto-pkg*.tgz ./example/crypto-pkg-latest.tgz",
+    "example:install": "npm --prefix ./example install",
+    "example:run": "npm --prefix ./example run start",
+    "preinstall": "echo HELLO"
   },
   "repository": {
     "type": "git",

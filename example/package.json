@@ -1,0 +1,17 @@
+{
+  "name": "crypto-pkg-tests",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "require_by_decryption.js",
+  "scripts": {
+    "start": "node require_by_decryption.js"
+  },
+  "author": "Ben Edridge",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-pkg": "file:./crypto-pkg-latest.tgz"
+  },
+  "encryption_key": "here_be_dragons",
+  "public_key": "123"
+}
